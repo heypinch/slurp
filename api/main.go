@@ -21,7 +21,15 @@ func main() {
 
 		// Do upload
 
+		// delete local copy
+
 		// Notify upload done
+
+	})
+
+	r.POST("/publish_started", func(c *gin.Context) {
+		name := c.PostForm("name")
+		// Log stream started
 
 	})
 
